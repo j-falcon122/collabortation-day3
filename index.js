@@ -13,16 +13,16 @@ $(document).ready(function() {
     var  timer = setInterval(
         function () {
           // $("#caption").fadeOut(500);
-          $("#slide").fadeOut(500,
+          $("#slide").fadeOut(800,
         function() {
           imageCounter = (imageCounter + 1) % imageCache.length;
               nextImage = imageCache[imageCounter];
               // nextCaption = nextImage.title;	
             // $("#caption").text(nextCaption).fadeIn(0);
-            $("#slide").attr("src", nextImage.src).fadeIn(500);
+            $("#slide").attr("src", nextImage.src).fadeIn(800);
         }
           );
         },
-      3000);
+      4000);
 
 });
