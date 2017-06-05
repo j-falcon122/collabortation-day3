@@ -15,5 +15,5 @@ function close_modal() {
     console.log(this);
     var modal = document.getElementById('myModal');
     var span = document.getElementsByClassName("close")[0];
-    spand = modal.style.display = "none";
+    span = modal.style.display = "none";
 }
